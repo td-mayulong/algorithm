@@ -23,7 +23,7 @@ public class MergeSort {
     }
 
     /**
-     * 对数组a中从索引lo到索引hi之间的元素进行排序
+     * 对数组a中从索引left到索引right之间的元素进行排序
      */
     private static void sort(Comparable[] a,int left,int right) {
         if (right <= left) {
